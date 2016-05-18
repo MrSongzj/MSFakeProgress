@@ -14,8 +14,8 @@
 		A100A0091B75AAB600CC5A03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A100A0081B75AAB600CC5A03 /* Images.xcassets */; };
 		A100A00C1B75AAB600CC5A03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A100A00A1B75AAB600CC5A03 /* LaunchScreen.xib */; };
 		A100A0181B75AAB600CC5A03 /* MSFakeProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A100A0171B75AAB600CC5A03 /* MSFakeProgressTests.m */; };
-		A100A0231B75AAED00CC5A03 /* MSFakeProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = A100A0221B75AAED00CC5A03 /* MSFakeProgress.m */; };
 		A100A0271B75C9FA00CC5A03 /* slider.png in Resources */ = {isa = PBXBuildFile; fileRef = A100A0261B75C9FA00CC5A03 /* slider.png */; };
+		A1D9A3111CEC00F70020E6D2 /* MSFakeProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D9A3101CEC00F70020E6D2 /* MSFakeProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,9 @@
 		A100A0111B75AAB600CC5A03 /* MSFakeProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSFakeProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A100A0161B75AAB600CC5A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A100A0171B75AAB600CC5A03 /* MSFakeProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSFakeProgressTests.m; sourceTree = "<group>"; };
-		A100A0211B75AAED00CC5A03 /* MSFakeProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFakeProgress.h; sourceTree = "<group>"; };
-		A100A0221B75AAED00CC5A03 /* MSFakeProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSFakeProgress.m; sourceTree = "<group>"; };
 		A100A0261B75C9FA00CC5A03 /* slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slider.png; sourceTree = "<group>"; };
+		A1D9A30F1CEC00F70020E6D2 /* MSFakeProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSFakeProgress.h; sourceTree = "<group>"; };
+		A1D9A3101CEC00F70020E6D2 /* MSFakeProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSFakeProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +86,7 @@
 		A1009FFA1B75AAB600CC5A03 /* MSFakeProgress */ = {
 			isa = PBXGroup;
 			children = (
+				A1D9A30E1CEC00DA0020E6D2 /* MSFakeProgress */,
 				A100A0261B75C9FA00CC5A03 /* slider.png */,
 				A1009FFF1B75AAB600CC5A03 /* AppDelegate.h */,
 				A100A0001B75AAB600CC5A03 /* AppDelegate.m */,
@@ -95,8 +96,6 @@
 				A100A0081B75AAB600CC5A03 /* Images.xcassets */,
 				A100A00A1B75AAB600CC5A03 /* LaunchScreen.xib */,
 				A1009FFB1B75AAB600CC5A03 /* Supporting Files */,
-				A100A0211B75AAED00CC5A03 /* MSFakeProgress.h */,
-				A100A0221B75AAED00CC5A03 /* MSFakeProgress.m */,
 			);
 			path = MSFakeProgress;
 			sourceTree = "<group>";
@@ -125,6 +124,15 @@
 				A100A0161B75AAB600CC5A03 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1D9A30E1CEC00DA0020E6D2 /* MSFakeProgress */ = {
+			isa = PBXGroup;
+			children = (
+				A1D9A30F1CEC00F70020E6D2 /* MSFakeProgress.h */,
+				A1D9A3101CEC00F70020E6D2 /* MSFakeProgress.m */,
+			);
+			path = MSFakeProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +239,7 @@
 				A100A0041B75AAB600CC5A03 /* ViewController.m in Sources */,
 				A100A0011B75AAB600CC5A03 /* AppDelegate.m in Sources */,
 				A1009FFE1B75AAB600CC5A03 /* main.m in Sources */,
-				A100A0231B75AAED00CC5A03 /* MSFakeProgress.m in Sources */,
+				A1D9A3111CEC00F70020E6D2 /* MSFakeProgress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +434,7 @@
 				A100A01D1B75AAB600CC5A03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A100A01E1B75AAB600CC5A03 /* Build configuration list for PBXNativeTarget "MSFakeProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +443,7 @@
 				A100A0201B75AAB600CC5A03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
